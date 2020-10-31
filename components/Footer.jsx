@@ -25,7 +25,7 @@ export default function Footer(){
     async function validarInfo(e){
         e.preventDefault();
         
-        const {data} = await axios.post('http://localhost:3000/api/formulario', info);
+        const {data} = await axios.post('https://portfolio-nikol.vercel.app/api/formulario', info);
 
         console.log(data);
     }
