@@ -15,6 +15,7 @@
     "nodemailer": "^6.4.14",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "sweetalert2": "^10.9.0",
     "swiper": "^6.3.4",
     "validator": "^13.1.17"
   }

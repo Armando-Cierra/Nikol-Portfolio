@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import axios from 'axios'
+import Swal from 'sweetalert2'
 
 export default function Footer(){
 
@@ -25,7 +26,7 @@ export default function Footer(){
     async function validarInfo(e){
         e.preventDefault();
         
-        const {data} = await axios.post('http://localhost:3000/api/formulario', info);
+        const {data} = await axios.post('https://portfolio-nikol.vercel.app/api/formulario', info);
 
         if(data.error){
             setError({
@@ -42,6 +43,21 @@ export default function Footer(){
                 correo: '',
                 telefono: '',
                 descripcion: ''
+            })
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'bottom-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                onOpen: (toast) => {
+                    toast.addEventListener('mouseenter', Swal.stopTimer)
+                    toast.addEventListener('mouseleave', Swal.resumeTimer)
+                }
+            })
+            Toast.fire({
+                icon: 'success',
+                title: 'Mensaje enviado exitosamente'
             })
         }
     }
