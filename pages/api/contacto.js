@@ -26,9 +26,17 @@ export default async (req, res) => {
 
         const mailOption = {
           from: 'pereznikoldesign@gmail.com',
-          to: 'armando_cierra@outlook.com',
-          subject: 'test',
-          html: `<h1>This is a test ${nombre}</h1><p>your email is: ${correo}</p>`
+          to: 'pereznikoldesign@gmail.com',
+          subject: 'PORTAFOLIO',
+          html: `
+            <h1 style="text-align: center; color: #508875;">Nuevo Proyecto</h1>
+            <p style="text-align: center;">Hola Nikol, alguien ha tratado de ponerse en contacto contigo desde tu portafolio en línea.</p>
+            <hr>
+            <p><strong>Nombre: </strong>${nombre}</p>
+            <p><strong>Correo: </strong>${correo}</p>
+            <p><strong>Teléfono: </strong>${telefono}</p>
+            <p><strong>Descrión del proyecto: </strong>${descripcion}</p>
+          `
         }
 
         try{

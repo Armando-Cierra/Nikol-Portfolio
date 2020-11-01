@@ -21,6 +21,9 @@ export default function Home() {
       <Conoceme/>
       <Servicios/>
       <Footer/>
+        <a className="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=50375472234&amp;text=¡Hola!&nbsp;tengo&nbsp;un&nbsp;proyecto&nbsp;en&nbsp;mente.&nbsp;¿Me&nbsp;puedes&nbsp;ayudar?">
+          <img src="./img/whatsapp-brands.svg" alt=""/>
+        </a>
     </>
   )
 }

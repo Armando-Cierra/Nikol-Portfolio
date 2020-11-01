@@ -26,7 +26,7 @@ export default function Footer(){
     async function validarInfo(e){
         e.preventDefault();
         
-        const {data} = await axios.post('https://portfolio-nikol.vercel.app/api/formulario', info);
+        const {data} = await axios.post('http://localhost:3000/api/contacto', info);
 
         if(data.error){
             setError({
@@ -108,9 +108,9 @@ export default function Footer(){
             <div className="base">
                 <p>Copyright {year} © nikolp.com</p>
                 <div className="redes">
-                    <a href=""><i className="fab fa-facebook-square"></i></a>
-                    <a href=""><i className="fab fa-instagram"></i></a>
-                    <a href=""><i className="fab fa-behance-square"></i></a>
+                    <a href="" target="_blank"><i className="fab fa-facebook-square"></i></a>
+                    <a href="" target="_blank"><i className="fab fa-instagram"></i></a>
+                    <a href="" target="_blank"><i className="fab fa-behance-square"></i></a>
                 </div>
             </div>
         </footer>
