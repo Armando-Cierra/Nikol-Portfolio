@@ -12,7 +12,6 @@ export default function MenuEscritorio(){
                     <NavLink href="/">Inicio</NavLink>
                     <NavLink href="/conoceme">Conóceme</NavLink>
                     <NavLink href="/proyectos">Proyectos</NavLink>
-                    <NavLink href="/contacto">Contacto</NavLink>
                 </div>
             </div>
         </nav>

@@ -23,7 +23,6 @@ export default function MenuMovil(){
                 <NavLink href="/">Inicio</NavLink>
                 <NavLink href="/conoceme">Conóceme</NavLink>
                 <NavLink href="/proyectos">Proyectos</NavLink>
-                <NavLink href="/contacto">Contacto</NavLink>
                 <div className="decoracion"></div>
             </nav>
         </>

@@ -3,15 +3,15 @@ export default function Servicios(){
     const servicios = [
         {
             nombre: 'Diseño Arquitectónico',
-            descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis eaque velit laborum in. Praesentium labore vitae magnil.',
+            descripcion: 'Servicios de arquitectura generales para proyectos personalizados, asesorías para la elaboración de planos de casas, centros comerciales, etc.',
             img: './img/servicios/diseño-arquitectonico.jpg'
         }, {
             nombre: 'Diseño Interior',
-            descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis eaque velit laborum in. Praesentium labore vitae magnil.',
+            descripcion: 'Ambientación a la medida para cada uno de tus espacios, decoración, stands, escaparatismo, etc.',
             img: './img/servicios/diseño-interior.jpg'
         }, {
             nombre: 'Visualizacion 3D',
-            descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis eaque velit laborum in. Praesentium labore vitae magnil.',
+            descripcion: 'Renders, Tour Interactivos, Realidad Virtual , Secciones 3d y Modelado de ideas. Para que pueda presentar sus proyectos de diferentes maneras y poder adaptarse a las necesidades tecnológicas actuales.',
             img: './img/servicios/visualizacion-3d.jpg'
         }
     ]
