@@ -16,8 +16,8 @@ export default function Proyectos(){
         
             <h1 className="hidden">Nikol Pérez | Proyectos</h1>
 
-            <MenuMovil/>
-            <MenuEscritorio/>
+            <MenuMovil url="./img/logo.png"/>
+            <MenuEscritorio url="./img/logo.png"/>
             <GaleriaProyectos/>
             <Footer/>
 

@@ -18,8 +18,8 @@ export default function Home() {
 
       <h1 className="hidden">Nikol Pérez | Interiorismo</h1>
 
-      <MenuMovil/>
-      <MenuEscritorio/>
+      <MenuMovil url="./img/logo.png"/>
+      <MenuEscritorio url="./img/logo.png"/>
       <Slideshow/>
       <Conoceme/>
       <Servicios/>

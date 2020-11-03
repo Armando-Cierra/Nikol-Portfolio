@@ -16,8 +16,8 @@ export default function Conoceme(){
 
             <h1 className="hidden">Nikol Pérez | Conóceme</h1>
 
-            <MenuMovil/>
-            <MenuEscritorio/>
+            <MenuMovil url="./img/logo.png"/>
+            <MenuEscritorio url="./img/logo.png"/>
             <section className="conoceme">
                 <div className="header" style={{background: "linear-gradient(to top, rgba(113, 173, 153, .4), rgba(0, 0, 0, 0)), url('./img/foto-xl.jpg')"}}>
                     <h2>Nikol Pérez</h2>
