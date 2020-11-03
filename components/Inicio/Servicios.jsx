@@ -23,7 +23,7 @@ export default function Servicios(){
             </div>
             <div className="contenedor">
                 {servicios.map((servicio, index)=>(
-                    <div className="servicio" key={index}>
+                    <div className="servicio" key={index} data-aos="fade-up" data-aos-delay={index * 200}>
                         <img src={servicio.img} alt=""/>
                         <h3>{servicio.nombre}</h3>
                         <p>{servicio.descripcion}</p>

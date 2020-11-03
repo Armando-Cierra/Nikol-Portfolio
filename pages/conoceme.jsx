@@ -20,11 +20,11 @@ export default function Conoceme(){
             <MenuEscritorio url="./img/logo.png"/>
             <section className="conoceme">
                 <div className="header" style={{background: "linear-gradient(to top, rgba(113, 173, 153, .4), rgba(0, 0, 0, 0)), url('./img/foto-xl.jpg')"}}>
-                    <h2>Nikol Pérez</h2>
+                    <h2 data-aos="fade-up">Nikol Pérez</h2>
                 </div>
                 <div className="info">
                     <div className="contenedor">
-                        <div className="texto">
+                        <div className="texto" data-aos="zoom-in" data-aos-delay="250">
                             <h3>Conóceme</h3>
                             <p>Soy Nikol Pérez Me defino como una persona que se reta constantemente, admiro lo
                             que me rodea y como funciona. Elegí el diseño de interiores porque es un arte que
@@ -38,7 +38,7 @@ export default function Conoceme(){
                             emociones. La primera nos reta a continuar aun cuando la segunda no esta.</p>
                             <a href="#"><button className="btn">Descargar Currículo</button></a>
                         </div>
-                        <img src="./img/foto.jpg" alt=""/>
+                        <img src="./img/foto.jpg" alt="" data-aos="zoom-in" data-aos-delay="250"/>
                     </div>
                 </div>
             </section>

@@ -18,7 +18,7 @@ export default function Slideshow(){
 
     return(
         <header>
-            <div className="slideshow">
+            <div className="slideshow" data-aos="zoom-in">
                 <Swiper
                     effect="fade"
                     slidesPerView={1}
@@ -38,7 +38,7 @@ export default function Slideshow(){
                     ))}
                 </Swiper>
             </div>
-            <div className="contenedorSmall">
+            <div className="contenedorSmall" data-aos="fade-up" data-aos-delay="250">
                 <p>Descubre mis últimos trabajos y encuentra el diseño ideal.</p>
                 <Link href="/proyectos"><button className="btn">Ver Todos los Proyectos</button></Link>
             </div>

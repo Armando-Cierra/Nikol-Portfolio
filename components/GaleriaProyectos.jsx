@@ -6,8 +6,8 @@ export default function GaleriaProyectos(){
 
     return(
         <section className="galeriaProyectos">
-            <h2>Proyectos</h2>
-            <div className="contenedor">
+            <h2 data-aos="fade-up">Proyectos</h2>
+            <div className="contenedor" data-aos="fade-up" data-aos-delay="300">
                 {listaProyectos.map((proyecto, index)=>(
                     <Link href="/proyectos/[slug]" as={`proyectos/${proyecto.slug}`} key={index}>
                         <div className="proyectoCover">

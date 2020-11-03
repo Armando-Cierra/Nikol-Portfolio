@@ -64,8 +64,8 @@ export default function Footer(){
 
     return(
         <footer>
-            <h2>Contáctame</h2>
-            <form onSubmit={validarInfo}>
+            <h2 data-aos="fade-in">Contáctame</h2>
+            <form onSubmit={validarInfo} data-aos="zoom-in">
                 <div className="contenedorSmall">
                     <div className="campo">
                         <label htmlFor="nombre">Nombre:</label>
