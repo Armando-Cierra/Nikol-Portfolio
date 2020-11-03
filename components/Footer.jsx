@@ -128,7 +128,7 @@ export default function Footer(){
                 <p>Copyright {year} © nikolp.com</p>
                 <div className="redes">
                     <a href="" target="_blank"><i className="fab fa-facebook-square"></i></a>
-                    <a href="" target="_blank"><i className="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/nikolp.id/" target="_blank"><i className="fab fa-instagram"></i></a>
                 </div>
             </div>
         </footer>

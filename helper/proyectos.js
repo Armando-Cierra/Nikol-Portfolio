@@ -57,9 +57,9 @@ const proyectos = [
             './img/proyectos/proyecto2/img/17.jpg',
         ]
     }, {
-        slug: 'diseno-de-hotel-butique',
+        slug: 'diseno-de-hotel-boutique',
         cover: './img/proyectos/proyecto3/cover.jpg',
-        nombre: 'Diseño de Hotel Butique',
+        nombre: 'Diseño de Hotel Boutique',
         texto: `
             <p>El proyecto consiste en la elaboración del diseño de un hotel boutique, partiendo de un concepto y en la elaboración de diferentes espacios.</p>
             <p>Este hotel cuenta con servicios de:</p>
@@ -167,7 +167,7 @@ const proyectos = [
         ]
     }, {
         slug: 'propuesta-de-intervencion-paisajistica-en-el-zoologico-nacional',
-        cover: './img/proyectos/cover-temporal.jpg',
+        cover: './img/proyectos/proyecto10/cover.jpg',
         nombre: 'Propuesta de Intervención Paisajística en el Zoológico Nacional',
         texto: `
             <p>La propuesta para la laguna, fue inspirada a través de todo lo que a ella le rodea. tomando en cuenta cada uno de los elementos que la conforman e incluyendo las necesidades de los animales que en ellos habita.</p>
@@ -185,7 +185,19 @@ const proyectos = [
             <p><strong>Colaboración:</strong> En Pareja</p>
         `,
         imagenes: [
-
+            './img/proyectos/proyecto10/img/0.jpg',
+            './img/proyectos/proyecto10/img/1.jpg',
+            './img/proyectos/proyecto10/img/2.jpg',
+            './img/proyectos/proyecto10/img/3.jpg',
+            './img/proyectos/proyecto10/img/4.jpg',
+            './img/proyectos/proyecto10/img/5.jpg',
+            './img/proyectos/proyecto10/img/6.jpg',
+            './img/proyectos/proyecto10/img/7.jpg',
+            './img/proyectos/proyecto10/img/8.jpg',
+            './img/proyectos/proyecto10/img/9.jpg',
+            './img/proyectos/proyecto10/img/10.jpg',
+            './img/proyectos/proyecto10/img/11.jpg',
+            './img/proyectos/proyecto10/img/12.jpg',
         ]
     }
 ]
