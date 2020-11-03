@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import MenuEscritorio from '../components/MenuEscritorio'
-import MenuMovil from '../components/MenuMovil'
-import GaleriaProyectos from '../components/GaleriaProyectos'
-import Footer from '../components/Footer'
+import MenuEscritorio from '../../components/MenuEscritorio'
+import MenuMovil from '../../components/MenuMovil'
+import GaleriaProyectos from '../../components/GaleriaProyectos'
+import Footer from '../../components/Footer'
 
 export default function Proyectos(){
     return(

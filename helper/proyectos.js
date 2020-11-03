@@ -100,10 +100,6 @@ const proyectos = [
             './img/proyectos/proyecto3/img/22.jpg'
         ]
     }, {
-        slug: 'proyecto4'
-    }, {
-        slug: 'proyecto5'
-    }, {
         slug: 'diseño-corporativo-punto-naranja',
         cover: './img/proyectos/proyecto6/cover.jpg',
         nombre: 'Diseño Corporativo Punto Naranja',
@@ -170,12 +166,8 @@ const proyectos = [
             './img/proyectos/proyecto7/img/28.jpg',
         ]
     }, {
-        slug: 'proyecto8'
-    }, {
-        slug: 'Proyecto9'
-    }, {
         slug: 'propuesta-de-intervencion-paisajistica-en-el-zoologico-nacional',
-        cover: './img/proyectos/proyecto10/cover.jpg',
+        cover: './img/proyectos/cover-temporal.jpg',
         nombre: 'Propuesta de Intervención Paisajística en el Zoológico Nacional',
         parrafos: [
             '<p>La propuesta para la laguna, fue inspirada a través de todo lo que a ella le rodea. tomando en cuenta cada uno de los elementos que la conforman e incluyendo las necesidades de los animales que en ellos habita.</p>',

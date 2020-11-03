@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import listaProyectos from '../helper/proyectos'
 
 export default function GaleriaProyectos(){
@@ -9,10 +11,12 @@ export default function GaleriaProyectos(){
             <h2>Proyectos</h2>
             <div className="contenedor">
                 {listaProyectos.map((proyecto, index)=>(
-                    <div className="proyectoCover" key={index}>
-                        {proyecto.cover && <img src={proyecto.cover} alt=""/>}
-                        <div className="titulo">{proyecto.nombre}</div>
-                    </div>
+                    <Link href={`proyectos/${proyecto.slug}`} key={index}>
+                        <div className="proyectoCover">
+                            {proyecto.cover && <img src={proyecto.cover} alt=""/>}
+                            <h3 className="titulo">{proyecto.nombre}</h3>
+                        </div>
+                    </Link>
                 ))}
             </div>
         </section>
