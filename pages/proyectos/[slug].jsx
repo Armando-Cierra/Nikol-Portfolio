@@ -38,17 +38,23 @@ export default function Proyecto({slug}){
                 </Head>
                 <MenuMovil url="../img/logo.png"/>
                 <MenuEscritorio url="../img/logo.png"/>
+                
                 <section className="proyectoInfo">
                     <h2>{proyecto.nombre}</h2>
-                    <div className="texto" dangerouslySetInnerHTML={{__html: proyecto.texto}}></div>
-                    <div className="galeria">
-                        {proyecto.imagenes.map((imagen, index)=>(
-                            <img src={`.${imagen}`} alt="" key={`i${index}`}/>
-                        ))}
+                    <div className="contenedor">
+                        <div className="texto" dangerouslySetInnerHTML={{__html: proyecto.texto}}></div>
+                        <div className="galeria">
+                            {proyecto.imagenes.map((imagen, index)=>(
+                                <img src={`.${imagen}`} alt="" key={`i${index}`}/>
+                            ))}
+                        </div>
+                        <div className="botonera"><Link href="/proyectos"><button className="btn">Regresar</button></Link></div>
                     </div>
-                    <Link href="/proyectos"><button className="btn">Regresar</button></Link>
                 </section>
                 <Footer/>
+                <a className="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=50375472234&amp;text=¡Hola!&nbsp;tengo&nbsp;un&nbsp;proyecto&nbsp;en&nbsp;mente.&nbsp;¿Me&nbsp;puedes&nbsp;ayudar?">
+                    <img src="../img/whatsapp-brands.svg" alt=""/>
+                </a>
             </>
         )
     }
