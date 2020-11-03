@@ -11,7 +11,7 @@ export default function Conoceme(){
                         <div><Link href="/conoceme"><button className="btn">Descubre Más</button></Link></div>
                     </div>
                 </div>
-                <img src="./img/foto.png" alt=""/>
+                <img src="./img/foto.jpg" alt=""/>
             </div>
         </section>
     )

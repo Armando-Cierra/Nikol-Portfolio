@@ -19,21 +19,26 @@ export default function Conoceme(){
             <MenuMovil/>
             <MenuEscritorio/>
             <section className="conoceme">
-                <div className="header">
+                <div className="header" style={{background: "linear-gradient(to top, rgba(113, 173, 153, .4), rgba(0, 0, 0, 0)), url('./img/foto-xl.jpg')"}}>
                     <h2>Nikol Pérez</h2>
                 </div>
                 <div className="info">
-                    <div className="text">
-                    <p>Soy Nikol Pérez Me defino como una persona que se reta constantemente, admiro lo
-                    que me rodea y como funciona. Elegí el diseño de interiores porque es un arte que
-                    pasa de la imaginación a algo físico y puede cambiar la vida de las personas.</p>
-                    <p>Opto por persistir en todo esto y entiendo que el esfuerzo siempre es necesario para
-                    llegar al resultado deseado, el ser interiorista requiere de empatía para comprender lo
-                    que las personas quieren proyectar. Cada proyecto muestra y expresa parte del diseño
-                    y color que me caracteriza para poder llevar una parte de lo que soy y lo que las
-                    personas obtendrán de mí.</p>
-                    <p>A lo largo de mi carrera he creído que es mejor trabajar con disciplina, más que con
-                    emociones. La primera nos reta a continuar aun cuando la segunda no esta.</p>
+                    <div className="contenedor">
+                        <div className="texto">
+                            <h3>Conóceme</h3>
+                            <p>Soy Nikol Pérez Me defino como una persona que se reta constantemente, admiro lo
+                            que me rodea y como funciona. Elegí el diseño de interiores porque es un arte que
+                            pasa de la imaginación a algo físico y puede cambiar la vida de las personas.</p>
+                            <p>Opto por persistir en todo esto y entiendo que el esfuerzo siempre es necesario para
+                            llegar al resultado deseado, el ser interiorista requiere de empatía para comprender lo
+                            que las personas quieren proyectar. Cada proyecto muestra y expresa parte del diseño
+                            y color que me caracteriza para poder llevar una parte de lo que soy y lo que las
+                            personas obtendrán de mí.</p>
+                            <p>A lo largo de mi carrera he creído que es mejor trabajar con disciplina, más que con
+                            emociones. La primera nos reta a continuar aun cuando la segunda no esta.</p>
+                            <a href="#"><button className="btn">Descargar Currículo</button></a>
+                        </div>
+                        <img src="./img/foto.jpg" alt=""/>
                     </div>
                 </div>
             </section>
