@@ -33,7 +33,7 @@ export default function Footer(){
                 mensaje: 'Complete todos los campos*'
             })
         } else {
-            if(!isEmail(correo)){
+            if(!isEmail(info.correo)){
                 setError({
                     activo: true,
                     mensaje: 'Ingrese un correo válido*'
