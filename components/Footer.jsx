@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import axios from 'axios'
 import Swal from 'sweetalert2'
+import {isEmpty, isEmail} from 'validator'
 
 export default function Footer(){
 
@@ -23,9 +24,27 @@ export default function Footer(){
         })
     }
 
-    async function validarInfo(e){
+    function validarInfo(e){
         e.preventDefault();
-        
+
+        if(isEmpty(info.nombre) || isEmpty(info.correo) || isEmpty(info.telefono) || isEmpty(info.descripcion)){
+            setError({
+                activo: true,
+                mensaje: 'Complete todos los campos*'
+            })
+        } else {
+            if(!isEmail(correo)){
+                setError({
+                    activo: true,
+                    mensaje: 'Ingrese un correo válido*'
+                })
+            } else {
+                enviarInfo();
+            }
+        }
+    }
+
+    async function enviarInfo(){
         const {data} = await axios.post('https://nikolp.com/api/contacto', info);
 
         if(data.error){

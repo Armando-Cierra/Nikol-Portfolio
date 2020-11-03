@@ -8,10 +8,10 @@ export default async (req, res) => {
     const {nombre, correo, telefono, descripcion} = req.body;
 
     if(isEmpty(nombre) || isEmpty(correo) || isEmpty(telefono) || isEmpty(descripcion)){
-      res.send({error: true, message: 'Complete todos los campos'});
+      res.send({error: true, message: 'Complete todos los campos*'});
     } else {
       if(!isEmail(correo)){
-        res.send({error: true, message: 'Ingrese un correo válido'});
+        res.send({error: true, message: 'Ingrese un correo válido*'});
       } else {
 
         const transporter = nodemailer.createTransport({

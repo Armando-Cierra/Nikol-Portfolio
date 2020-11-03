@@ -40,12 +40,12 @@ export default function Proyecto({slug}){
                 <MenuEscritorio url="../img/logo.png"/>
                 
                 <section className="proyectoInfo">
-                    <h2>{proyecto.nombre}</h2>
+                    <h2 data-aos="zoom-in">{proyecto.nombre}</h2>
                     <div className="contenedor">
-                        <div className="texto" dangerouslySetInnerHTML={{__html: proyecto.texto}}></div>
+                        <div className="texto" dangerouslySetInnerHTML={{__html: proyecto.texto}} data-aos="fade-up"></div>
                         <div className="galeria">
                             {proyecto.imagenes.map((imagen, index)=>(
-                                <img src={`.${imagen}`} alt="" key={`i${index}`}/>
+                                <img src={`.${imagen}`} alt="" key={`i${index}`} data-aos="fade-up"/>
                             ))}
                         </div>
                         <div className="botonera"><Link href="/proyectos"><button className="btn">Regresar</button></Link></div>
