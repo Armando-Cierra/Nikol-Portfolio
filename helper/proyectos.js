@@ -166,6 +166,29 @@ const proyectos = [
             './img/proyectos/proyecto7/img/28.jpg',
         ]
     }, {
+        slug: 'revitalizacion-de-espacio-público-peatonalizacion-de-via-y-solucion-de-kiosko-para-comercios-informales-en-la-ciudad-de-santa-ana',
+        cover: './img/proyectos/proyecto9/cover.jpg',
+        nombre: 'Revitalización De Espacio Público, Peatonalización De Vías Y Solución De Kiosko Para Comercios Informales En La Ciudad De Santa Ana',
+        texto: `
+            <p>El proyecto se basa en cuatro ejes fundamentales que transformaran la manera de experimentar e interactuar con el espacio público, nos basamos en el simbolismo de protección con la que está diseñada la propia estructura de la iglesia de Santa Ana que es la cruz.</p>
+            <p>Adaptabilidad en el entorno y la innovación de tecnologías son parte de un nuevo Habitad idóneo para los usuarios. Con esto damos paso a una transición del comercio local a una nueva etapa de oportunidades que traerán beneficios a toda la población Santaneca y servirá de ejemplo para futuro proyectos.</p>
+            <p>A través de la propuesta integral de reordenamiento y diseño del quiosco se dará otra cara al comercio y se logrará reactivar la economía de una manera más ordenada y segura, siguiendo las medidas que hoy se requiere.</p>
+            <p>Unos de los retos del diseño del quiosco es el espacio. El área es de 1.50 x 1.50 m, y se pueden aprovechar las diferentes alturas para ubicar todos los espacios que necesita.</p>
+            <p>Otras de los requisitos es que sea móvil, que se pueda trasladar y ubicar dependiendo de la necesitad de espacio que demande la situación.</p>
+            <p><strong>Colaboración:</strong> Grupal </p>
+        `,
+        imagenes: [
+            './img/proyectos/proyecto9/img/1.jpg',
+            './img/proyectos/proyecto9/img/2.jpg',
+            './img/proyectos/proyecto9/img/3.jpg',
+            './img/proyectos/proyecto9/img/4.jpg',
+            './img/proyectos/proyecto9/img/5.jpg',
+            './img/proyectos/proyecto9/img/6.jpg',
+            './img/proyectos/proyecto9/img/7.jpg',
+            './img/proyectos/proyecto9/img/8.jpg',
+            './img/proyectos/proyecto9/img/9.jpg',
+        ]
+    }, {
         slug: 'propuesta-de-intervencion-paisajistica-en-el-zoologico-nacional',
         cover: './img/proyectos/proyecto10/cover.jpg',
         nombre: 'Propuesta de Intervención Paisajística en el Zoológico Nacional',
@@ -196,8 +219,7 @@ const proyectos = [
             './img/proyectos/proyecto10/img/8.jpg',
             './img/proyectos/proyecto10/img/9.jpg',
             './img/proyectos/proyecto10/img/10.jpg',
-            './img/proyectos/proyecto10/img/11.jpg',
-            './img/proyectos/proyecto10/img/12.jpg',
+            './img/proyectos/proyecto10/img/11.jpg'
         ]
     }
 ]

@@ -36,7 +36,7 @@ export default function Conoceme(){
                             personas obtendrán de mí.</p>
                             <p>A lo largo de mi carrera he creído que es mejor trabajar con disciplina, más que con
                             emociones. La primera nos reta a continuar aun cuando la segunda no esta.</p>
-                            <a href="#"><button className="btn">Descargar Currículo</button></a>
+                            <a href="./archivos/CURRICULUM.pdf" target="_blank"><button className="btn">Descargar Curriculum</button></a>
                         </div>
                         <img src="./img/foto.jpg" alt="" data-aos="zoom-in" data-aos-delay="250"/>
                     </div>
