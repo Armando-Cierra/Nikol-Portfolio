@@ -210,7 +210,10 @@ const proyectos = [
                 <li>Mobiliario adecuado para la zona.</li>
             </ol>
             <p>Cada una de estas propuestas mencionadas anteriormente fueron contempladas con su respectivo cuido y mantenimiento.</p>
-            <p><strong>Colaboración:</strong> En Pareja</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Christian Medrano</li>
+            </ul>
         `,
         imagenes: [
             './img/proyectos/proyecto10/img/1.jpg',
