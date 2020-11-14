@@ -16,8 +16,11 @@
         font-size: .8rem;
         font-weight: $light;
     }
-    ol{
+    ol, ul{
         margin-left: 1rem;
+        li{
+            font-weight: $light;
+        }
     }
     h2{
         font-size: 2rem;
@@ -69,6 +72,22 @@
     &:hover{
         background: $verde-oscuro;
         border-color: $verde-oscuro;
+    }
+}
+.btn.naranja{
+    border: 2px solid $naranja;
+    color: $naranja;
+    &:hover{
+        background: $naranja;
+        color: $blanco;
+    }
+}
+.btn.naranja.full{
+    background: $naranja;
+    color: $blanco;
+    &:hover{
+        background: $naranja-oscuro;
+        border-color: $naranja-oscuro;
     }
 }
 

@@ -48,7 +48,7 @@ export default function Proyecto({slug}){
                                 <img src={`.${imagen}`} alt="" key={`i${index}`} data-aos="fade-up"/>
                             ))}
                         </div>
-                        <div className="botonera"><Link href="/proyectos"><button className="btn">Regresar</button></Link></div>
+                        <div className="botonera"><Link href="/proyectos"><button className="btn naranja">Regresar</button></Link></div>
                     </div>
                 </section>
                 <Footer/>

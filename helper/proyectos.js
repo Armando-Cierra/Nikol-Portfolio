@@ -4,12 +4,15 @@ const proyectos = [
         cover: './img/proyectos/proyecto1/cover.jpg',
         nombre: 'Proyecto de Uso Mixto de Optimización de Espacios',
         texto: `
-            <p>El proyecto se localiza en la 3a Avenida Norte de Santa Tecla, La Libertad, El Salvador. El espacio designado se encuentra dentro de una lotifi¬cación de tipo colmena y el terreno asignado tiene un área de 49 m2, y es propiedad de la diseñadora de modas Vanessa Cañas Herrera.</p>
-            <p>En términos generales el proyecto consiste en la máxima optimización del espacio tanto interior como exterior para proporcionar un uso mixto, donde haya lugar para la realización de las actividades laborales y de vivienda. La separación de espacios se visualiza en el lenguaje arquitectónico y en la selección de mobiliario adecuado para cada espacio. Además, el proyecto se caracteriza por la reutilización de 2 contenedores de 6.05 m x 2.43 m, los cuales son la estructura principal tanto de la vivienda como del espacio laboral, en este caso un taller de modas para la propietaria. Para garantizar el aprovechamiento del espacio se ha concebido un diseño de dos niveles, donde la vivienda se encuentra en el segundo nivel para mayor privacidad, y el taller de moda en el primer nivel, para proporcionar fácil acceso de los clientes al lugar.</p>
-            <p><strong>Colaboración:</strong> Grupal</p>
+            <p>El proyecto se localiza en la 3a Avenida Norte de Santa Tecla, La Libertad, El Salvador. El espacio designado se encuentra dentro de una lotificación de tipo colmena y el terreno asignado tiene un área de 49 m2, y es propiedad de la diseñadora de modas Vanessa Cañas Herrera.</p>
+            <p>En términos generales el proyecto consiste en la máxima optimización del espacio tanto interior como exterior para proporcionar un uso mixto, donde haya lugar para la realización de las actividades laborales y de vivienda.</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Cristina Reyes</li>
+                <li>Gabriel Hidalgo</li>
+            </ul>
         `,
         imagenes: [
-            './img/proyectos/proyecto1/img/1.jpg',
             './img/proyectos/proyecto1/img/2.jpg',
             './img/proyectos/proyecto1/img/3.jpg',
             './img/proyectos/proyecto1/img/4.jpg',
@@ -35,10 +38,13 @@ const proyectos = [
             <p>Palo verde está ubicado en El Zonte, La libertad, El Salvador.</p>
             <p>Este hotel se caracteriza por ser un espacio eco sostenible, innovador y de bajo impacto ambiental; Ubicado frente al océano pacifico, provee a cada usuario la serenidad y belleza del mar, la tranquilidad del entorno y una de las mejores costas para surf en el país.</p>
             <p>El proyecto se realizará como una extensión del Hotel Palo Verde, siguiendo con el factor ecológico/sostenible, cambiando la línea de diseño y la ubicación del nuevo proyecto; El proyecto colindará con el río El Zonte y proporcionará una nueva identidad al espacio, tomando como prioridad y atractivo principal este río y su entorno.</p>
-            <p><strong>Colaboración:</strong> Grupal</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Andrea Cóbar</li>
+                <li>Christian Medrano</li>
+            </ul>
         `,
         imagenes: [
-            './img/proyectos/proyecto2/img/1.jpg',
             './img/proyectos/proyecto2/img/2.jpg',
             './img/proyectos/proyecto2/img/3.jpg',
             './img/proyectos/proyecto2/img/4.jpg',
@@ -71,12 +77,12 @@ const proyectos = [
                 <li>Bar</li>
                 <li>Spa</li>
             </ol>
-            <p>El hotel consta en el primer nivel de terraza, Área de restaurante y bar, se ofrece servicio a la mesa y un menú exclusivo con platos del país. Tiene una capacidad para 25 comensales. Algo más íntimo y exclusivo para los hospedadores</p>
-            <p>El segundo nivel posee seis habitaciones, las cuales son 2 individuales, 2 dobles y 2 suite. Cada uno de los niveles posee su propia terraza con bar para los hospedadores.</p>
-            <p><strong>Colaboración:</strong> En Pareja</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Fátima Chavez</li>
+            </ul>
         `,
         imagenes: [
-            './img/proyectos/proyecto3/img/1.jpg',
             './img/proyectos/proyecto3/img/2.jpg',
             './img/proyectos/proyecto3/img/3.jpg',
             './img/proyectos/proyecto3/img/4.jpg',
@@ -104,17 +110,13 @@ const proyectos = [
         cover: './img/proyectos/proyecto6/cover.jpg',
         nombre: 'Diseño Corporativo Punto Naranja',
         texto: `
-            <p>El proyecto buscaba crear un espacio disruptivo para los jóvenes, que potencie las habilidades del futuro, fomentando la innovación, creatividad, arte y cultura a través del emprendimiento y la inserción laboral.</p>
-            <p>En que los jóvenes pudieran desarrollar la creatividad, liderazgo y actitud emprendedora, formar en ellos el uso de la tecnología y promover la creación y fortalecimiento de industrias creativas y culturales con incidencia social, económica y medioambiental positiva.</p>
+            <p>El proyecto buscaba crear un espacio disruptivo para los jóvenes, que potencie las habilidades del futuro, fomentando la innovación, creatividad, arte y cultura a través del emprendimiento y la inserción laboral. En que los jóvenes pudieran desarrollar la creatividad, liderazgo y actitud emprendedora.</p>
         `,
         imagenes: [
-            './img/proyectos/proyecto6/img/1.jpg',
             './img/proyectos/proyecto6/img/2.jpg',
             './img/proyectos/proyecto6/img/3.jpg',
             './img/proyectos/proyecto6/img/4.jpg',
-            './img/proyectos/proyecto6/img/5.jpg',
             './img/proyectos/proyecto6/img/6.jpg',
-            './img/proyectos/proyecto6/img/7.jpg',
             './img/proyectos/proyecto6/img/8.jpg',
             './img/proyectos/proyecto6/img/9.jpg',
             './img/proyectos/proyecto6/img/10.jpg',
@@ -131,12 +133,15 @@ const proyectos = [
         cover: './img/proyectos/proyecto7/cover.jpg',
         nombre: 'Propuesta para Hogar de Ancianos San Vicente de Paul',
         texto: `
-            <p>El proyecto consistía en crear una propuesta de remodelación interior y paisajística del hogar, con el fin de brindar una mejoría en la calidad de vida de las personas que habitan allí.</p>
-            <p>Se presentan desde las investigaciones previas sobre el usuario y sus necesidades, la conceptualización de diseño, la inspiración, modelado 3d y planimetría 2D de la propuesta; donde se detallan elementos específicos que mejoraran la productividad y calidad del hogar no solo a nivel arquitectónico, sino también a nivel psicológico, físico y social; algunos de estos elementos son: Selección de luminarias con alta productividad, selección de vegetación, materiales y acabados especializados en sanidad, protección y psicología del color; utilización de la neuro arquitectura, utilización de la antropometría y el análisis de circulación y factores climáticos.</p>
-            <p><strong>Colaboración:</strong> Grupal</p>
+            <p>El proyecto consistía en crear una propuesta de remodelación interior y paisajística del hogar, con el fin de brindar una mejoría en la calidad de vida de las personas que habitan en el asilo.</p>
+            <p>Se detallan elementos específicos que mejoraran la productividad y calidad del hogar no solo a nivel arquitectónico, sino también a nivel psicológico, físico y social tomando en cuenta la neuro arquitectura, utilización de la antropometría y el análisis de circulación y factores climáticos.</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Cristina Reyes</li>
+                <li>Gabriel Hidalgo</li>
+            </ul>
         `,
         imagenes: [
-            './img/proyectos/proyecto7/img/1.jpg',
             './img/proyectos/proyecto7/img/2.jpg',
             './img/proyectos/proyecto7/img/3.jpg',
             './img/proyectos/proyecto7/img/4.jpg',
@@ -170,15 +175,15 @@ const proyectos = [
         cover: './img/proyectos/proyecto9/cover.jpg',
         nombre: 'Revitalización De Espacio Público, Peatonalización De Vías Y Solución De Kiosko Para Comercios Informales En La Ciudad De Santa Ana',
         texto: `
-            <p>El proyecto se basa en cuatro ejes fundamentales que transformaran la manera de experimentar e interactuar con el espacio público, nos basamos en el simbolismo de protección con la que está diseñada la propia estructura de la iglesia de Santa Ana que es la cruz.</p>
             <p>Adaptabilidad en el entorno y la innovación de tecnologías son parte de un nuevo Habitad idóneo para los usuarios. Con esto damos paso a una transición del comercio local a una nueva etapa de oportunidades que traerán beneficios a toda la población Santaneca y servirá de ejemplo para futuro proyectos.</p>
-            <p>A través de la propuesta integral de reordenamiento y diseño del quiosco se dará otra cara al comercio y se logrará reactivar la economía de una manera más ordenada y segura, siguiendo las medidas que hoy se requiere.</p>
             <p>Unos de los retos del diseño del quiosco es el espacio. El área es de 1.50 x 1.50 m, y se pueden aprovechar las diferentes alturas para ubicar todos los espacios que necesita.</p>
-            <p>Otras de los requisitos es que sea móvil, que se pueda trasladar y ubicar dependiendo de la necesitad de espacio que demande la situación.</p>
-            <p><strong>Colaboración:</strong> Grupal </p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Erika Monterroza</li>
+                <li>Alejandro Villacorta</li>
+            </ul>
         `,
         imagenes: [
-            './img/proyectos/proyecto9/img/1.jpg',
             './img/proyectos/proyecto9/img/2.jpg',
             './img/proyectos/proyecto9/img/3.jpg',
             './img/proyectos/proyecto9/img/4.jpg',
@@ -208,7 +213,6 @@ const proyectos = [
             <p><strong>Colaboración:</strong> En Pareja</p>
         `,
         imagenes: [
-            './img/proyectos/proyecto10/img/0.jpg',
             './img/proyectos/proyecto10/img/1.jpg',
             './img/proyectos/proyecto10/img/2.jpg',
             './img/proyectos/proyecto10/img/3.jpg',

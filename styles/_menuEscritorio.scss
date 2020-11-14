@@ -12,8 +12,8 @@
         display: block;
         width: 100%;
         height: 100px;
-        background: $blanco;
-        box-shadow: 0 0 15px rgba(54, 68, 62, 0.25);
+        background: $verde-oscuro;
+        box-shadow: 0 0 15px rgba(30, 54, 44, 0.5);
         z-index: 1000;
         .contenedor{
             height: 100%;
@@ -27,7 +27,7 @@
                 display: flex;
                 a{
                     text-decoration: none;
-                    color: $negro;
+                    color: $blanco;
                     opacity: .5;
                     padding: 1rem 1.5rem;
                     position: relative;
@@ -39,7 +39,7 @@
                         left: 50%;
                         height: 4px;
                         width: 0;
-                        background: $verde;
+                        background: $naranja;
                         border-radius: 6px;
                         transition: ease-in-out .15s;
                     }
@@ -48,7 +48,7 @@
                     }
                 }
                 a.active{
-                    color: $verde;
+                    color: $blanco;
                     opacity: 1;
                     &::after{
                         left: calc(50% - 20%);

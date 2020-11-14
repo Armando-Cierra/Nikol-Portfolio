@@ -3,7 +3,7 @@
 .barra{
     width: 100%;
     height: 80px;
-    background: $blanco;
+    background: $verde;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@
             height: 4px;
             border-radius: 3px;
             width: 60%;
-            background-color: $verde;
+            background-color: $blanco;
 
             transition: ease-in-out .25s;
             &::after, &::before{
@@ -37,7 +37,7 @@
                 width: 100%;
                 height: 4px;
                 border-radius: 3px;
-                background-color: $verde;
+                background-color: $blanco;
                 transition: ease-in-out .25s;
             }
             &::before{

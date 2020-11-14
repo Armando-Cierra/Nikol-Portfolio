@@ -20,7 +20,7 @@
             transition: ease-in-out .15s;
             &:hover{
                 transform: scale(1.02);
-                background: $verde;
+                background: $verde-oscuro;
                 h3{
                     color: $blanco;
                 }
@@ -30,7 +30,7 @@
             }
             img{
                 width: 100%;
-                border-bottom: 6px solid $verde;
+                border-bottom: 6px solid $verde-oscuro;
                 transition: ease-in-out .15s;
             }
             h3{
