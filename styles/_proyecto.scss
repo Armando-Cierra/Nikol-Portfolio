@@ -3,9 +3,13 @@
 .proyectoInfo{
     padding-top: calc(80px + 3rem);
     h2{
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
         color: $verde;
         text-align: center;
         margin-bottom: 2rem;
+        
     }
     .contenedor{
         .texto{
