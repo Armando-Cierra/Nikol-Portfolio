@@ -106,6 +106,53 @@ const proyectos = [
             './img/proyectos/proyecto3/img/22.jpg'
         ]
     }, {
+        slug: 'diseño-de-wine-bar',
+        cover: './img/proyectos/proyecto4/cover.jpg',
+        nombre: 'Diseño de Wine Bar',
+        texto: `
+            <p>El proyecto se ubica en el 2do. Nivel del Centro Comercial “La Capilla” en el Blvd. del Hipódromo en la Colonia San Benito. Un área conocida por la exclusividad de los comercios que se encuentran a sus alrededores.</p>
+            <p>Consistió en el diseño de un “Wine Bar”, el cuál debía funcionar en días de semana y fines de semana por lo que se consideró que el diseño se apegara al funcionamiento de día y noche. </p>
+        `,
+        imagenes: [
+            './img/proyectos/proyecto4/img/1.jpg',
+            './img/proyectos/proyecto4/img/2.jpg',
+            './img/proyectos/proyecto4/img/3.jpg',
+            './img/proyectos/proyecto4/img/4.jpg',
+            './img/proyectos/proyecto4/img/5.jpg',
+            './img/proyectos/proyecto4/img/6.jpg',
+            './img/proyectos/proyecto4/img/7.jpg',
+            './img/proyectos/proyecto4/img/8.jpg',
+            './img/proyectos/proyecto4/img/9.jpg',
+            './img/proyectos/proyecto4/img/10.jpg'
+        ]
+    }, {
+        slug: 'restaurante-pop-art-para-raiz-el-salvador',
+        cover: './img/proyectos/proyecto5/cover.jpg',
+        nombre: 'Restaurante Pop-Up para raíz El Salvador',
+        texto: `
+            <p>El proyecto se ubica en Calle La Reforma en la Colonia San Benito.</p>
+            <p>Consistía en el diseño y renovación interior de una edificación existente, cuyos nuevos arrendatarios deseaban crear un nuevo concepto de restaurante para Raíz El Salvador que es cocina contemporánea salvadoreña. Tomando como inspiración cada uno de los platillos que ellos cocinan y llevarlos al diseño interior.</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Andrea Cóbar</li>
+                <li>Christian Medrano</li>
+            </ul>
+        `,
+        imagenes: [
+            './img/proyectos/proyecto5/img/1.jpg',
+            './img/proyectos/proyecto5/img/2.jpg',
+            './img/proyectos/proyecto5/img/3.jpg',
+            './img/proyectos/proyecto5/img/4.jpg',
+            './img/proyectos/proyecto5/img/5.jpg',
+            './img/proyectos/proyecto5/img/6.jpg',
+            './img/proyectos/proyecto5/img/7.jpg',
+            './img/proyectos/proyecto5/img/8.jpg',
+            './img/proyectos/proyecto5/img/9.jpg',
+            './img/proyectos/proyecto5/img/10.jpg',
+            './img/proyectos/proyecto5/img/12.jpg',
+            './img/proyectos/proyecto5/img/13.jpg'
+        ]
+    }, {
         slug: 'diseño-corporativo-punto-naranja',
         cover: './img/proyectos/proyecto6/cover.jpg',
         nombre: 'Diseño Corporativo Punto Naranja',

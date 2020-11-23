@@ -1,4 +1,4 @@
-export default function Servicios(){
+export default function Servicios({setServicio}){
 
     const servicios = [
         {
@@ -27,6 +27,12 @@ export default function Servicios(){
                         <img src={servicio.img} alt=""/>
                         <h3>{servicio.nombre}</h3>
                         <p>{servicio.descripcion}</p>
+                        <div><button 
+                            className="btn naranja"
+                            onClick={()=>{
+                                setServicio(servicio.nombre)
+                            }}
+                        >Ver Servicio</button></div>
                     </div>
                 ))}
             </div>

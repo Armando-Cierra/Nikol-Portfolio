@@ -1,13 +1,22 @@
+import {useState} from 'react'
 import Head from 'next/head'
 
 import MenuMovil from '../components/MenuMovil'
 import MenuEscritorio from '../components/MenuEscritorio'
+import Lightbox from '../components/Lightbox'
 import Slideshow from '../components/Inicio/Slideshow'
 import Conoceme from '../components/Inicio/Conoceme'
 import Servicios from '../components/Inicio/Servicios'
 import Footer from '../components/Footer'
 
 export default function Home() {
+
+  const [servicio, setServicio] = useState(null)
+
+  function actualizarServicio(e){
+    setServicio(e)
+  }
+
   return (
     <>
       <Head>
@@ -20,9 +29,10 @@ export default function Home() {
 
       <MenuMovil url="./img/logo.png"/>
       <MenuEscritorio url="./img/logo.png"/>
+      <Lightbox servicio={servicio} setServicio={actualizarServicio} />
       <Slideshow/>
       <Conoceme/>
-      <Servicios/>
+      <Servicios setServicio={actualizarServicio}/>
       <Footer/>
 
       <a className="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=50375472234&amp;text=¡Hola!&nbsp;tengo&nbsp;un&nbsp;proyecto&nbsp;en&nbsp;mente.&nbsp;¿Me&nbsp;puedes&nbsp;ayudar?">

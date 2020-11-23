@@ -36,8 +36,14 @@
                 color: $verde;
             }
             p{
-                margin-bottom: 2rem;
+                margin-bottom: 1rem;
                 color: $gris;
+            }
+            div{
+                padding: 0 2rem;
+                margin-bottom: 2rem;
+                display: flex;
+                justify-content: center;
             }
         }
     }
