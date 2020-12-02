@@ -13,6 +13,11 @@ const proyectos = [
             </ul>
         `,
         imagenes: [
+            './img/proyectos/proyecto1/img/1-1.jpg',
+            './img/proyectos/proyecto1/img/1-2.jpg',
+            './img/proyectos/proyecto1/img/1-3.jpg',
+            './img/proyectos/proyecto1/img/1-4.jpg',
+            './img/proyectos/proyecto1/img/1-5.jpg',
             './img/proyectos/proyecto1/img/2.jpg',
             './img/proyectos/proyecto1/img/3.jpg',
             './img/proyectos/proyecto1/img/4.jpg',
@@ -114,6 +119,8 @@ const proyectos = [
             './img/proyectos/proyecto4/img/1.jpg',
             './img/proyectos/proyecto4/img/1-2.jpg',
             './img/proyectos/proyecto4/img/1-3.jpg',
+            './img/proyectos/proyecto4/img/1-3-1.jpg',
+            './img/proyectos/proyecto4/img/1-3-2.jpg',
             './img/proyectos/proyecto4/img/1-4.jpg',
             './img/proyectos/proyecto4/img/2.jpg',
             './img/proyectos/proyecto4/img/3.jpg',
@@ -161,6 +168,8 @@ const proyectos = [
         `,
         imagenes: [
             './img/proyectos/proyecto6/img/2.jpg',
+            './img/proyectos/proyecto6/img/2-1.jpg',
+            './img/proyectos/proyecto6/img/2-2.jpg',
             './img/proyectos/proyecto6/img/3.jpg',
             './img/proyectos/proyecto6/img/4.jpg',
             './img/proyectos/proyecto6/img/6.jpg',
@@ -191,6 +200,8 @@ const proyectos = [
         imagenes: [
             './img/proyectos/proyecto7/img/2.jpg',
             './img/proyectos/proyecto7/img/3.jpg',
+            './img/proyectos/proyecto7/img/3-1.jpg',
+            './img/proyectos/proyecto7/img/3-2.jpg',
             './img/proyectos/proyecto7/img/4.jpg',
             './img/proyectos/proyecto7/img/5.jpg',
             './img/proyectos/proyecto7/img/6.jpg',
@@ -226,6 +237,14 @@ const proyectos = [
         `,
         imagenes: [
             './img/proyectos/proyecto9/img/2.jpg',
+            './img/proyectos/proyecto9/img/2-1.jpg',
+            './img/proyectos/proyecto9/img/2-2.jpg',
+            './img/proyectos/proyecto9/img/2-3.jpg',
+            './img/proyectos/proyecto9/img/2-4.jpg',
+            './img/proyectos/proyecto9/img/2-5.jpg',
+            './img/proyectos/proyecto9/img/2-6.jpg',
+            './img/proyectos/proyecto9/img/2-7.jpg',
+            './img/proyectos/proyecto9/img/2-8.jpg',
             './img/proyectos/proyecto9/img/3.jpg',
             './img/proyectos/proyecto9/img/4.jpg',
             './img/proyectos/proyecto9/img/5.jpg',
