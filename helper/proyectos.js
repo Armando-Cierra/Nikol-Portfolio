@@ -223,9 +223,49 @@ const proyectos = [
             './img/proyectos/proyecto7/img/28.jpg',
         ]
     }, {
-        slug: 'revitalizacion-de-espacio-público-peatonalizacion-de-via-y-solucion-de-kiosko-para-comercios-informales-en-la-ciudad-de-santa-ana',
+        slug: 'revitalización-y-cambio-de-uso-para-el-edificio-de-la-ex-escuela-de-artes-y-oficios-mariano-mendez-santa-ana',
+        cover: './img/proyectos/proyecto8/cover.jpg',
+        nombre: 'Revitalización Y Cambio De Uso Para El Edificio De La Ex Escuela De Artes Y Oficios “Mariano Méndez” Santa Ana',
+        texto: `
+            <p>El proyecto se ubica en la ciudad de Santa Ana, sobre la Calle José Mariano Méndez Poniente, al frente del Parque Colón.</p>
+            <p>Debido a su importante valor histórico y ubicación en la que se encuentra la Ex escuela Mariano Méndez. Se proponen espacios en los que el usuario pueda apreciar y conocer más de la historia del inmueble, a su vez pueda gozar de diferentes experiencias que cada uno de los espacios le brindará. Desde un hotel y un bistró hasta un espacio dedicado completamente a talleres y al emprendimiento, dónde se busca apoyar el talento local y de esta manera tanto locales como extranjeros puedan conocerlos y adquirir sus productos.</p>
+            <strong>Colaboración con:</strong>
+            <ul>
+                <li>Erika Monterroza</li>
+                <li>Alejandro Villacorta</li>
+            </ul>
+        `,
+        imagenes: [
+            './img/proyectos/proyecto8/img/1.jpg',
+            './img/proyectos/proyecto8/img/2.jpg',
+            './img/proyectos/proyecto8/img/3.jpg',
+            './img/proyectos/proyecto8/img/4.jpg',
+            './img/proyectos/proyecto8/img/5.jpg',
+            './img/proyectos/proyecto8/img/6.jpg',
+            './img/proyectos/proyecto8/img/7.jpg',
+            './img/proyectos/proyecto8/img/8.jpg',
+            './img/proyectos/proyecto8/img/9.jpg',
+            './img/proyectos/proyecto8/img/11.jpg',
+            './img/proyectos/proyecto8/img/12.jpg',
+            './img/proyectos/proyecto8/img/13.jpg',
+            './img/proyectos/proyecto8/img/14.jpg',
+            './img/proyectos/proyecto8/img/15.jpg',
+            './img/proyectos/proyecto8/img/16.jpg',
+            './img/proyectos/proyecto8/img/17.jpg',
+            './img/proyectos/proyecto8/img/18.jpg',
+            './img/proyectos/proyecto8/img/19.jpg',
+            './img/proyectos/proyecto8/img/20.jpg',
+            './img/proyectos/proyecto8/img/21.jpg',
+            './img/proyectos/proyecto8/img/22.jpg',
+            './img/proyectos/proyecto8/img/23.jpg',
+            './img/proyectos/proyecto8/img/24.jpg',
+            './img/proyectos/proyecto8/img/25.jpg',
+            './img/proyectos/proyecto8/img/26.jpg',
+        ]
+    }, {
+        slug: 'revitalizacion-de-espacio-público-peatonalizacion-de-via-y-solucion-de-kiosco-para-comercios-informales-en-la-ciudad-de-santa-ana',
         cover: './img/proyectos/proyecto9/cover.jpg',
-        nombre: 'Revitalización De Espacio Público, Peatonalización De Vías Y Solución De Kiosko Para Comercios Informales En La Ciudad De Santa Ana',
+        nombre: 'Revitalización De Espacio Público, Peatonalización De Vías Y Solución De Kiosco Para Comercios Informales En La Ciudad De Santa Ana',
         texto: `
             <p>Adaptabilidad en el entorno y la innovación de tecnologías son parte de un nuevo Habitad idóneo para los usuarios. Con esto damos paso a una transición del comercio local a una nueva etapa de oportunidades que traerán beneficios a toda la población Santaneca y servirá de ejemplo para futuro proyectos.</p>
             <p>Unos de los retos del diseño del quiosco es el espacio. El área es de 1.50 x 1.50 m, y se pueden aprovechar las diferentes alturas para ubicar todos los espacios que necesita.</p>
