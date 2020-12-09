@@ -14,6 +14,7 @@ export default function Slideshow(){
         './img/slideshow/5.jpg',
         './img/slideshow/6.jpg',
         './img/slideshow/7.jpg',
+        './img/slideshow/8.jpg',
         './img/slideshow/9.jpg',
         './img/slideshow/10.jpg'
     ];
