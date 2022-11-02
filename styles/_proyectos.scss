@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and(min-width: 500px){
+@media screen and (min-width: 500px){
     .galeriaProyectos{
         .contenedor{
             grid-template-columns: repeat(2, 1fr);
@@ -51,7 +51,7 @@
     }
 }
 
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
     .galeriaProyectos{
         .contenedor{
             grid-template-columns: repeat(3, 1fr);

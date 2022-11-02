@@ -49,7 +49,7 @@
     }
 }
 
-@media screen and(min-width: 768px){
+@media screen and (min-width: 768px){
     .servicios{
         .contenedor{
             grid-template-columns: repeat(2, 1fr);
@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and(min-width: 1024px){
+@media screen and (min-width: 1024px){
     .servicios{
         .contenedor{
             grid-template-columns: repeat(3, 1fr);
