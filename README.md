@@ -1,7 +1,5 @@
 # Nikol Portfolio
 
----
-
 ### Project Description
 
 Portfolio website based on Nikol Perez mockups, using NextJS as main tool to offer a good SEO optimization and performance at the moment of displaying her college projects.
