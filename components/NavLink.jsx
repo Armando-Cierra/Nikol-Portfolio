@@ -10,6 +10,6 @@ export default function NavLink({href, children}){
     }
 
     return(
-        <Link href={href}><a className={className}>{children}</a></Link>
+        <Link legacyBehavior href={href}><a className={className}>{children}</a></Link>
     )
 }

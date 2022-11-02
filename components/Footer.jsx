@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import {Link} from 'next'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 import {isEmpty, isEmail} from 'validator'
