@@ -6,6 +6,8 @@ Portfolio website based on Nikol Perez mockups, using NextJS as main tool to off
 
 Visit website [here](https://nikol-portfolio.netlify.app/)
 
+**Year:** 2020
+
 ---
 
 ### Technology Used
